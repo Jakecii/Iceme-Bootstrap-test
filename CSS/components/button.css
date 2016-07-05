@@ -1,11 +1,12 @@
 .btn-home {
-	color: #1B100D;
+	color: white;
+	background-color: #1B100D;
 	border-radius: 20px;
 	padding: 10px 15px;
 	font-weight: lighter;
-	opacity: 0,6;
 }
 
 .btn-home:hover {
-	opacity: 1;
+	text-decoration: none;
+	color: white;
 }
