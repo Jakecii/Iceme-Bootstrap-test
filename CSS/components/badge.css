@@ -1,0 +1,19 @@
+.badge {
+	line-height: 20px;
+    width: 20px;
+    padding: 0px;
+    background: #6A2C0C;
+    position: relative;
+    top: -15px;
+    left: -15px;
+}
+
+nav .badge {
+	line-height: 20px;
+    width: 20px;
+    padding: 0px;
+    background: #6A2C0C;
+    position: relative;
+    top: -10px;
+    left: -18px;
+}

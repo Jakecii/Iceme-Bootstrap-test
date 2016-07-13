@@ -1,0 +1,42 @@
+.list {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	border: 1px solid #FFFBB1;
+	border-radius: 10px;
+}
+
+.list:hover {
+	background: #FFFBB1;
+}
+
+.list-vote {
+	text-align: center;
+	padding: 10px;
+
+}
+
+.list-description {
+	flex: 1 0 auto;
+	padding: 0 10px;
+}
+
+.list-description h3 {
+	padding-top: 0;
+}
+
+.list-description p {
+	padding-bottom: 0;
+}
+
+.list-control a {
+	color: #CB5909;
+	transition: all 0.15s ease;
+	-webkit-transition: all 0.15s ease;
+}
+
+.list-control a:hover {
+	color: #6A2C0C;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}

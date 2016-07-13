@@ -1,0 +1,40 @@
+.tabs {
+	background: #6A2C0C;
+	color: white;
+	padding: 10px 10px 0px 10px;
+	display: flex;
+}
+
+.tabs-item {
+	background: #CB5909;
+	color: #6A2C0C;
+	text-align: center;
+	flex: 1 0 auto;
+}
+
+.tabs-item:first-child {
+	border-radius: 10px 0 0 0;
+}
+
+.tabs-item:last-child {
+	border-radius: 0 10px 0 0;
+}
+
+.tabs h3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px !important;
+}
+
+.tabs p {
+	font-weight: lighter;
+}
+
+.tabs-item.active {
+	background: #FFFBB1;
+	color: #6A2C0C;
+}
+
+.tabs-item:hover {
+	background: #F18E1C;
+}
