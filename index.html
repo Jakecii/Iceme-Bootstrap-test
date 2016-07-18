@@ -65,7 +65,47 @@
       <h1>DEGUSTEZ UNE BIERE</h1>
       <h2>Trop bonne</h2>
       <br>
-      <a class="btn-home" href="#" role="button">Commander</a>
+      <button type="button" class="btn-home" data-toggle="modal" data-target="#OrderForm">
+        Commander notre bière
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="OrderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Formulaire de commande</h4>
+          </div>
+          <div class="modal-body">
+              <div id="wufoo-m6rg2mf0040ry4">
+              Fill out my <a href="https://jakecii.wufoo.com/forms/m6rg2mf0040ry4">online form</a>.
+              </div>
+              <!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div> -->
+              <script type="text/javascript">var m6rg2mf0040ry4;(function(d, t) {
+              var s = d.createElement(t), options = {
+              'userName':'jakecii',
+              'formHash':'m6rg2mf0040ry4',
+              'autoResize':true,
+              'height':'464',
+              'async':true,
+              'host':'wufoo.com',
+              'header':'show',
+              'ssl':true};
+              s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+              s.onload = s.onreadystatechange = function() {
+              var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+              try { m6rg2mf0040ry4 = new WufooForm();m6rg2mf0040ry4.initialize(options);m6rg2mf0040ry4.display(); } catch (e) {}};
+              var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+              })(document, 'script');</script>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
     </div>
 
     <div class="spacer"></div>
@@ -279,10 +319,8 @@
           </div>
         </div>
     </div>
-
     
-
-
+    
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
